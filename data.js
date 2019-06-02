@@ -9,9 +9,19 @@ const initData = {
       id: 'column01',
       title: 'ToDo',
       taskIds: ['task01', 'task02', 'task03']
-    }
+    },
+    'column02':{
+      id: 'column02',
+      title: 'In Progress',
+      taskIds: []
+    },
+    'column03':{
+      id: 'column03',
+      title: 'DONE',
+      taskIds: []
+    },
   },
-  columnOrder: ['column01']
+  columnOrder: ['column01', 'column02', 'column03']
 };
 
 export default initData;
